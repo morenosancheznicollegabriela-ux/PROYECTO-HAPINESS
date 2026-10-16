@@ -72,3 +72,156 @@ body{
     border: none;
     border-radius: 2px;
 }
+.section-yellow {
+    background: #ffd000;
+    position: relative;
+    z-index: 1;
+    margin-top: -55px;
+    min-height: 500px;
+    padding: 80px 80px;
+}
+.text{
+    width: 40%;
+}
+.text h2{
+    color: #ffd000;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 1.1;
+}
+.text p{
+    color: black;
+    font-size: 16px;
+    line-height:1.4;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.text .read-more {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.imagenes {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.imagenes img {
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+}
+.section-yellow{
+    background: #ffd000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 120px 139px;
+}
+.text-yellow{
+    width: 60%;
+    text-align: left;
+}
+.text-yellow h2{
+    font-size: 70px;
+    line-height: 0.9;
+    margin-bottom: 15px;
+}
+.text-yellow p{
+    font-size: 18px;
+    line-height:1.4;
+    margin-bottom: 15px;
+}
+.btn-yellow{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 8px;
+}
+.btn-yellow strong{
+    font-size:15px ;
+}
+.photo2{
+    width: 50%;
+}
+.photo2 img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.contenedor-Happiness {
+    width: 92%;
+    max-width: 1000px;
+    margin: 80px auto 50px;
+    background-color: #e6e2e2;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.28);
+    overflow: hidden;
+}
+.imagen {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+.imagen-izquierda {
+    width: 50%;
+    flex: 0 0 50%;
+}
+.imagen-izquierda img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.contenedor-Happy {
+    width: 74%;
+    flex: 0 0 74%;
+    min-height: 420px;
+    padding: 60px;
+    background-color: #e6e2e2;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contenedor-Happy h2 {
+    color: #ffd000;
+    font-size: 48px;
+    line-height: 1.1;
+    margin: 0 0 18px;
+}
+.contenedor-Happy p {
+    max-width: 340px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    font-size: 11px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.grafica {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: auto;
+    padding: 0 300px 0;
+    box-sizing: border-box;
+}
+.grafica img {
+    display: block;
+    width: 145px;
+    height: auto;
+}
