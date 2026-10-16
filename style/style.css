@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background:#fff;
+    background: #fff;
     font-size: 15px;
     line-height: 1.6;
 }
@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding:10px;
+    padding: 10px;
 }
 .menu ul strong{
     list-style: none;
@@ -26,53 +26,53 @@ body{
     gap: 30px;
 }
 .menu a{
-    text-decoration:none; 
+    text-decoration: none;
     color: black;
     font-size: 15px;
 }
-.hero {
+.hero{
     width: 100%;
     height: 550px;
     display: flex;
 }
-.hero1 {
+.hero1{
     width: 50%;
     height: 550px;
-    padding-inline:100px;
+    padding-inline: 100px;
     padding-top: 100px;
 }
 .photo img{
     width: 100%;
     height: auto;
 }
-.hero2 {
-    width: 50%; 
-    height: 550px; 
+.hero2{
+    width: 50%;
+    height: 550px;
     background: white;
     color: black;
     padding-right: 8%;
     padding-left: 6%;
     padding-top: 8%;
 }
-.hero2 h1 {
+.hero2 h1{
     font-size: 70px;
     line-height: 1.1;
     margin-bottom: 26px;
 }
-.hero2 p {
+.hero2 p{
     font-size: 18px;
     line-height: 1.7;
     color: black;
     margin-bottom: 27px;
 }
-.btn {
+.btn{
     padding: 15px 25px;
     background-color: #ffd000;
     color: #000;
     border: none;
     border-radius: 2px;
 }
-.Happiness {
+.Happiness{
     width: 100%;
     max-width: 1000px;
     min-height: 280px;
@@ -88,20 +88,20 @@ body{
     position: relative;
     z-index: 2;
 }
-.Happiness h2 {
+.Happiness h2{
     text-align: center;
     color: #ffd000;
     font-size: 48px;
     margin-bottom: 50px;
 }
-.btn-black {
+.btn-black{
     padding: 15px 25px;
     background-color: #000;
     color: white;
     border: none;
     border-radius: 2px;
 }
-.section-yellow {
+.section-yellow{
     background: #ffd000;
     position: relative;
     z-index: 1;
@@ -122,23 +122,23 @@ body{
 .text p{
     color: black;
     font-size: 16px;
-    line-height:1.4;
+    line-height: 1.4;
     padding: 15px;
     margin-bottom: 10px;
 }
-.text .read-more {
+.text .read-more{
     font-weight: bold;
     font-size: 15px;
     margin-top: 15px;
 }
-.imagenes {
+.imagenes{
     width: 55%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
 }
-.imagenes img {
+.imagenes img{
     width: 40%;
     height: auto;
     object-fit: contain;
@@ -162,7 +162,7 @@ body{
 }
 .text-yellow p{
     font-size: 18px;
-    line-height:1.4;
+    line-height: 1.4;
     margin-bottom: 15px;
 }
 .btn-yellow{
@@ -173,7 +173,7 @@ body{
     font-size: 8px;
 }
 .btn-yellow strong{
-    font-size:15px ;
+    font-size: 15px;
 }
 .photo2{
     width: 50%;
@@ -183,7 +183,7 @@ body{
     display: block;
     height: auto;
 }
-.contenedor-Happiness {
+.contenedor-Happiness{
     width: 92%;
     max-width: 1000px;
     margin: 80px auto 50px;
@@ -191,24 +191,24 @@ body{
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.28);
     overflow: hidden;
 }
-.imagen {
+.imagen{
     display: flex;
     flex-direction: row;
     align-items: stretch;
     width: 100%;
 }
-.imagen-izquierda {
+.imagen-izquierda{
     width: 50%;
     flex: 0 0 50%;
 }
-.imagen-izquierda img {
+.imagen-izquierda img{
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
-.contenedor-Happy {
+.contenedor-Happy{
     width: 74%;
     flex: 0 0 74%;
     min-height: 420px;
@@ -219,19 +219,19 @@ body{
     flex-direction: column;
     align-items: flex-start;
 }
-.contenedor-Happy h2 {
+.contenedor-Happy h2{
     color: #ffd000;
     font-size: 48px;
     line-height: 1.1;
     margin: 0 0 18px;
 }
-.contenedor-Happy p {
+.contenedor-Happy p{
     max-width: 340px;
     font-size: 16px;
     line-height: 1.6;
     margin: 0 0 20px;
 }
-.btn-black {
+.btn-black{
     background-color: #000;
     color: #fff;
     border: none;
@@ -240,7 +240,7 @@ body{
     margin-bottom: 20px;
     cursor: pointer;
 }
-.grafica {
+.grafica{
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -249,7 +249,7 @@ body{
     padding: 0 300px 0;
     box-sizing: border-box;
 }
-.grafica img {
+.grafica img{
     display: block;
     width: 145px;
     height: auto;
@@ -267,7 +267,7 @@ body{
 .section-black h2{
     color: #ffd000;
     font-size: 30px;
-    line-height: 1,2;
+    line-height: 1.2;
     margin: 0 0 8px;
 }
 .section-black p{
@@ -288,7 +288,7 @@ body{
     object-fit: cover;
     object-position: center;
 }
-.btn-yellow {
+.btn-yellow{
     display: block;
     margin: 30px auto 40px;
     padding: 10px 32px;
@@ -299,7 +299,7 @@ body{
     font-size: 14px;
     cursor: pointer;
 }
-.section-white {
+.section-white{
     width: 100%;
     min-height: 620px;
     background-color: #fff;
@@ -311,75 +311,75 @@ body{
     padding: 35px 6%;
     box-sizing: border-box;
 }
-.OUR-photo {
+.OUR-photo{
     width: 50%;
     max-width: 590px;
     flex-shrink: 0;
 }
-.OUR-photo img {
+.OUR-photo img{
     display: block;
     width: 100%;
     height: 505px;
     object-fit: cover;
 }
-.black-text {
+.black-text{
     width: 34%;
     max-width: 400px;
     text-align: left;
 }
-.black-text h2 {
+.black-text h2{
     color: #000;
     font-size: 40px;
     line-height: 1.2;
     margin: 0 0 18px;
 }
-.black-text p {
+.black-text p{
     color: #000;
     font-size: 15px;
     line-height: 1.4;
     margin: 0 0 35px;
 }
-.section-try {
+.section-try{
     width: 100%;
-    min-height: 620px;
-    background-color: #fff;
+    min-height: 100vh;
+    background: #dedcdc;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 60px;
-    padding: 35px 6%;
+    padding: 35px;
     box-sizing: border-box;
 }
-.photo-try {
+.photo-try{
     width: 50%;
-    max-width: 590px;
-    flex-shrink: 0;
+    display: flex;
+    justify-content: left;
 }
-.photo-try img {
-    display: block;
-    width: 100%;
-    height: 505px;
-    object-fit: cover;
+.photo-try img{
+    width: 590px;
+    max-width: 100%;
+    height: auto;
 }
-.text-black {
+.text-black{
     width: 34%;
-    max-width: 400px;
-    text-align: left;
+    max-width: 350px;
+    text-align: center;
 }
-.text-black h2 {
+.text-black h2{
     color: #000;
+    text-align: center;
     font-size: 40px;
     line-height: 1.2;
-    margin: 0 0 18px;
+    margin: 0 0 8px;
 }
-.text-black p {
+.text-black p{
     color: #000;
-    font-size: 15px;
-    line-height: 1.4;
-    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.25;
+    margin: 0 auto 25px;
 }
-.subscribe {
+.subscribe{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -389,7 +389,7 @@ body{
     box-sizing: border-box;
     background-color: #fff;
 }
-.contenedor-subscribe {
+.contenedor-subscribe{
     width: 470px;
     flex-shrink: 0;
     padding: 45px 42px 35px;
@@ -397,49 +397,49 @@ body{
     background-color: #000;
     color: #fff;
 }
-.fila-nombres {
+.fila-nombres{
     display: flex;
     gap: 22px;
 }
-.campo {
+.campo{
     width: 100%;
     margin-bottom: 8px;
 }
-.campo p {
+.campo p{
     margin: 0 0 10px;
     font-size: 13px;
     font-weight: bold;
 }
-.caja {
+.caja{
     width: 100%;
     height: 27px;
     border: 2px solid #eee;
     box-sizing: border-box;
 }
-.caja-mensaje {
+.caja-mensaje{
     height: 126px;
 }
-.texto-formulario {
+.texto-formulario{
     margin-top: 16px;
     font-size: 11px;
     line-height: 1.2;
 }
-.text-subscribe {
+.text-subscribe{
     max-width: 400px;
 }
-.text-subscribe h2 {
+.text-subscribe h2{
     color: #f5c400;
     font-size: 42px;
     line-height: 1.15;
     margin: 0 0 12px;
 }
-.text-subscribe p {
+.text-subscribe p{
     font-size: 18px;
     line-height: 1.2;
     margin-bottom: 42px;
     color: #000;
 }
-.btn-subscribe {
+.btn-subscribe{
     width: 165px;
     height: 40px;
     background-color: #000;
@@ -461,7 +461,7 @@ body{
 .section-contact h2{
     color: #000;
     font-size: 30px;
-    line-height: 1,2;
+    line-height: 1.2;
     margin: 0 0 8px;
 }
 .section-contact p{
@@ -482,15 +482,15 @@ body{
     object-fit: cover;
     object-position: center;
 }
-.btn-black {
+.btn-black{
     background-color: #000;
     color: #fff;
     border: none;
     padding: 15px 25px;
     font-size: 11px;
-    margin-top: 20px
+    margin-top: 20px;
 }
-.footer {
+.footer{
     width: 100%;
     min-height: 500px;
     background-color: #000;
@@ -501,356 +501,180 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-.footer-superior {
+.footer-superior{
     display: flex;
     flex-direction: column;
     gap: 95px;
 }
-.footer-logo img {
+.footer-logo img{
     width: 90px;
     height: auto;
     display: block;
 }
-.footer-enlaces {
+.footer-enlaces{
     display: flex;
     gap: 40px;
 }
-.grupo-enlaces {
+.grupo-enlaces{
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
-.grupo-enlaces a {
+.grupo-enlaces a{
     color: #ffd600;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
 }
-.footer-inferior {
+.footer-inferior{
     border-top: 1px solid #ccc;
     padding-top: 42px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer-inferior p {
+.footer-inferior p{
     margin: 0;
     color: #ffd000;
     font-size: 14px;
     font-weight: bold;
 }
-.footer-redes {
+.footer-redes{
     display: flex;
     align-items: center;
     gap: 18px;
 }
-.footer-redes img {
+.footer-redes img{
     width: 20px;
     height: 20px;
     object-fit: contain;
 }
-.section-try{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    min-height: 100vh;
-    background:#dedcdc;
-    padding: 35px ;
-    align-items: center;
-    gap:60px;
-    justify-content: center;
-}
-.text-black {
-    width: 34%;
-    max-width: 350px;
-    text-align: center;
-}
-.text-black h2{
-    color: #000;
-    text-align: center;
-    font-size: 40px;
-    line-height: 1,2;
-    margin: 0 0 8px;
-}
-.text-black p{
-    color: #000;
-    font-size: 20px;
-    line-height: 1.25;
-    margin: 0 auto 25px;
-}
-.photo-try {
-    width: 50%;
-    display: flex;
-    justify-content:left;
-}
-.photo-try img {
-    width: 590px;
-}
-@media(max-width:1000px) {
-    .hero {
-        min-height: 470px;
-    }
-    .hero1 {
-        padding: 50px 6%;
-    }
-    .hero2 {
-        padding: 50px 6% 50px 3%;
-    }
-    .hero2 h1 {
-        font-size: clamp(38px, 5vw, 55px);
-    }
-    .section-yellow {
-        padding: 90px 6%;
-        gap: 30px;
-    }
-    .text-yellow h2 {
-        font-size: clamp(36px, 5vw, 55px);
-    }
-    .contenedor-Happy {
-        padding: 35px;
-    }
-    .subscribe {
-        gap: 40px;
-        padding: 55px 5%;
-    }
-    .contenedor-subscribe {
-        width: 430px;
-    }
-    .section-white, .section-try {
-        gap: 40px;
-        padding: 45px 5%;
-    }
-}
-@media(max-width:768px) {
+
+@media (max-width: 1000px) {
     .menu {
-        flex-direction: column;
-        gap: 12px;
-    }
-    .menu ul {
-        justify-content: center;
+        justify-content: space-between;
+        padding: 12px 4%;
         gap: 20px;
-        flex-wrap: wrap;
+    }
+    .menu img {
+        max-width: 100px;
+        height: auto;
+    }
+    .menu ul strong {
+        gap: 20px;
     }
     .hero {
-        flex-direction: column;
+        height: auto;
         min-height: 0;
     }
     .hero1, .hero2 {
-        width: 100%;
+        width: 50%;
+        height: auto;
     }
     .hero1 {
-        padding: 35px 10% 10px;
-    }
-    .photo {
-        max-width: 500px;
-        margin: auto;
+        padding: 70px 5% 40px;
     }
     .hero2 {
-        padding: 30px 8% 45px;
+        padding: 70px 5% 40px;
     }
     .hero2 h1 {
-        font-size: 48px;
-    }
-    .Happiness {
-        padding: 35px 25px;
-        gap: 25px;
-    }
-    .Happiness .text {
-        width: 42%;
-    }
-    .Happiness .imagenes {
-        width: 58%;
-        gap: 12px;
-    }
-    .Happiness .text h2 {
-        font-size: 36px;
-    }
-    .Happiness .imagenes img {
-        width: calc(50% - 6px);
-    }
-    .section-yellow {
-        padding: 75px 6%;
-        gap: 25px;
-    }
-    .text-yellow, .photo2 {
-        width: 50%;
-    }
-    .text-yellow h2 {
-        font-size: 40px;
-    }
-    .text-yellow p {
-        font-size: 16px;
-    }
-    .imagen {
-        flex-direction: column;
-    }
-    .imagen-izquierda, .contenedor-Happy {
-        width: 100%;
-        flex: 0 0 100%;
-    }
-    .imagen-izquierda img {
-        height: 350px;
-        min-height: 0;
-    }
-    .contenedor-Happy {
-        min-height: 0;
-        padding: 35px;
-    }
-    .grafica {
-        margin-top: 20px;
-    }
-    .about-photo {
-        width: 90%;
-    }
-    .about-photo img {
-        height: 350px;
-    }
-    .section-white, .section-try {
-        min-height: 0;
-        gap: 30px;
-        padding: 50px 6%;
-    }
-    .OUR-photo, .photo-try {
-        width: 50%;
-    }
-    .OUR-photo img, .photo-try img {
-        height: 380px;
-    }
-    .black-text, .text-black {
-        width: 50%;
-    }
-    .black-text h2, .text-black h2 {
-        font-size: 32px;
-    }
-    .subscribe {
-        flex-direction: column;
-        align-items: stretch;
-    }
-    .contenedor-subscribe, .text-subscribe {
-        width: 100%;
-        max-width: none;
-    }
-    .photo-contact {
-        width: 90%;
-    }
-    .photo-contact img {
-        height: 350px;
-    }
-}
-@media(max-width:520px) {
-    .menu {
-        padding: 15px;
-    }
-    .menu ul {
-        gap: 12px;
-    }
-    .menu a {
-        font-size: 14px;
-    }
-    .hero1 {
-        padding: 30px 8% 0;
-    }
-    .hero2 {
-        padding: 25px 7% 35px;
-    }
-    .hero2 h1 {
-        font-size: 40px;
+        font-size: clamp(38px, 5.5vw, 60px);
     }
     .hero2 p {
         font-size: 16px;
     }
     .Happiness {
-        flex-direction: column;
-        align-items: stretch;
-        padding: 30px 22px;
-        gap: 20px;
+        width: 92%;
+        gap: 25px;
+        padding: 35px 25px;
     }
-    .Happiness .text, .Happiness .imagenes {
-        width: 100%;
+    .text {
+        width: 42%;
     }
-    .Happiness .text h2 {
-        font-size: 36px;
-        margin-bottom: 15px;
+    .Happiness h2 {
+        font-size: 38px;
+        margin-bottom: 25px;
     }
-    .Happiness .imagenes {
+    .text p {
+        padding: 8px;
+    }
+    .imagenes {
+        width: 58%;
         gap: 15px;
     }
-    .Happiness .imagenes img {
+    .imagenes img {
         width: calc(50% - 8px);
     }
     .section-yellow {
-        flex-direction: column;
-        padding: 65px 7% 45px;
-        margin-top: -15px;
-        gap: 25px;
+        gap: 30px;
+        padding: 100px 7%;
     }
-    .text-yellow, .photo2 {
-        width: 100%;
+    .text-yellow {
+        width: 55%;
     }
     .text-yellow h2 {
-        font-size: 42px;
+        font-size: clamp(38px, 5.5vw, 58px);
+    }
+    .text-yellow p {
+        font-size: 16px;
     }
     .photo2 {
-        max-width: 420px;
-        margin: auto;
-    }
-    .contenedor-Happiness {
-        width: 92%;
-        margin: 45px auto;
+        width: 45%;
     }
     .contenedor-Happy {
-        padding: 28px 22px;
+        width: 60%;
+        flex: 0 0 60%;
+        padding: 35px;
+    }
+    .imagen-izquierda {
+        width: 40%;
+        flex: 0 0 40%;
     }
     .contenedor-Happy h2 {
-        font-size: 36px;
+        font-size: 38px;
     }
-    .imagen-izquierda img {
-        height: 280px;
-    }
-    .section-black {
-        min-height: 0;
-        padding: 35px 15px;
-    }
-    .about-photo {
-        width: 100%;
-    }
-    .about-photo img {
-        height: 270px;
+    .grafica {
+        padding: 0;
     }
     .section-white, .section-try {
-        flex-direction: column;
-        gap: 25px;
-        padding: 40px 7%;
+        gap: 35px;
+        padding: 40px 5%;
     }
-    .OUR-photo, .photo-try, .black-text, .text-black {
-        width: 100%;
-        max-width: none;
+    .OUR-photo, .photo-try {
+        width: 50%;
+        min-width: 0;
     }
     .OUR-photo img, .photo-try img {
-        height: auto;
-        max-height: 380px;
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
     }
-    .section-try .text-black {
-        order: 2;
+    .black-text, .text-black {
+        width: 45%;
+        max-width: 400px;
     }
-    .section-try .photo-try {
-        order: 1;
+    .text-black {
+        text-align: left;
     }
-    .black-text h2, .text-black h2 {
+    .text-black h2 {
+        text-align: left;
         font-size: 34px;
     }
+    .text-black p {
+        font-size: 16px;
+    }
     .subscribe {
-        padding: 45px 6%;
         gap: 35px;
+        padding: 50px 5%;
     }
     .contenedor-subscribe {
-        padding: 28px 22px;
+        width: 48%;
+        min-width: 0;
+        padding: 35px 25px;
     }
-    .fila-nombres {
-        gap: 12px;
-    }
-    .campo label {
-        font-size: 12px;
+    .text-subscribe {
+        width: 45%;
+        min-width: 0;
     }
     .text-subscribe h2 {
         font-size: 36px;
@@ -858,25 +682,357 @@ body{
     .text-subscribe p {
         font-size: 16px;
     }
-    .section-contact {
-        min-height: 0;
-        padding: 35px 15px;
-    }
-    .photo-contact {
-        width: 100%;
-    }
-    .photo-contact img {
-        height: 260px;
+    .about-photo, .photo-contact {
+        width: 80%;
     }
     .footer {
-        min-height: 350px;
-        padding: 35px 7% 20px;
+        min-height: 420px;
+    }
+}
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 4%;
+    }
+    .menu img {
+        width: 85px;
+    }
+    .menu ul strong {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 22px;
+    }
+    .menu a {
+        font-size: 14px;
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .hero1, .hero2 {
+        width: 100%;
+    }
+    .hero1 {
+        padding: 35px 8% 0;
+    }
+    .photo {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .hero2 {
+        padding: 30px 8% 45px;
+        text-align: center;
+    }
+    .hero2 h1 {
+        font-size: clamp(40px, 7vw, 55px);
+    }
+    .hero2 p {
+        font-size: 16px;
+    }
+    .Happiness {
+        width: 92%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+        padding: 30px 25px;
+    }
+    .text {
+        width: 100%;
+    }
+    .Happiness h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .text p {
+        padding: 5px 0;
+    }
+    .imagenes {
+        width: 100%;
+        gap: 20px;
+    }
+    .imagenes img {
+        width: calc(50% - 10px);
+    }
+    .section-yellow {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+        padding: 85px 8% 45px;
+        margin-top: -25px;
+    }
+    .text-yellow, .photo2 {
+        width: 100%;
+    }
+    .text-yellow h2 {
+        font-size: clamp(38px, 7vw, 50px);
+    }
+    .photo2 {
+        max-width: 520px;
+        margin: 0 auto;
+    }
+    .contenedor-Happiness {
+        width: 92%;
+        margin: 45px auto;
+    }
+    .imagen {
+        flex-direction: column;
+    }
+    .imagen-izquierda {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    .imagen-izquierda img {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
+    .contenedor-Happy {
+        width: 100%;
+        flex: 0 0 auto;
+        min-height: 0;
+        padding: 30px;
+    }
+    .contenedor-Happy h2 {
+        font-size: 36px;
+    }
+    .contenedor-Happy p {
+        max-width: none;
+    }
+    .grafica {
+        justify-content: flex-end;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .section-black, .section-contact {
+        min-height: 0;
+        padding: 35px 20px;
+    }
+    .about-photo, .photo-contact {
+        width: 90%;
+    }
+    .about-photo img, .photo-contact img {
+        width: 100%;
+        height: auto;
+        max-height: 380px;
+        object-fit: cover;
+    }
+    .section-white, .section-try {
+        min-height: 0;
+        gap: 30px;
+        padding: 45px 7%;
+    }
+    .OUR-photo, .photo-try {
+        width: 50%;
+        min-width: 0;
+    }
+    .OUR-photo img, .photo-try img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    .black-text, .text-black {
+        width: 50%;
+        max-width: none;
+    }
+    .black-text h2, .text-black h2 {
+        font-size: 30px;
+    }
+    .black-text p, .text-black p {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .subscribe {
+        flex-direction: column;
+        gap: 35px;
+        padding: 45px 7%;
+    }
+    .contenedor-subscribe {
+        width: 100%;
+        max-width: 520px;
+        padding: 35px;
+    }
+    .text-subscribe {
+        width: 100%;
+        max-width: 520px;
+    }
+    .text-subscribe h2 {
+        font-size: 36px;
+    }
+    .text-subscribe p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .footer {
+        min-height: 0;
+        gap: 40px;
+        padding: 35px 6% 25px;
     }
     .footer-superior {
         gap: 35px;
     }
+    .footer-inferior {
+        gap: 20px;
+        padding-top: 25px;
+    }
+}
+@media (max-width: 520px) {
+    .menu {
+        padding: 15px 5%;
+    }
+    .menu img {
+        width: 75px;
+    }
+    .menu ul strong {
+        gap: 8px 15px;
+    }
+    .menu a {
+        font-size: 13px;
+    }
+    .hero1 {
+        padding: 25px 6% 0;
+    }
+    .hero2 {
+        padding: 25px 7% 35px;
+    }
+    .hero2 h1 {
+        font-size: 38px;
+    }
+    .hero2 p {
+        font-size: 15px;
+    }
+    .btn, .btn-black, .btn-yellow {
+        max-width: 100%;
+    }
+    .Happiness {
+        width: 92%;
+        padding: 25px 20px;
+        gap: 20px;
+    }
+    .Happiness h2 {
+        font-size: 32px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+    .imagenes {
+        gap: 12px;
+    }
+    .imagenes img {
+        width: calc(50% - 6px);
+    }
+    .section-yellow {
+        padding: 65px 7% 40px;
+        gap: 25px;
+    }
+    .text-yellow h2 {
+        font-size: 36px;
+    }
+    .text-yellow p {
+        font-size: 15px;
+    }
+    .contenedor-Happiness {
+        margin: 35px auto;
+    }
+    .imagen-izquierda img {
+        max-height: 300px;
+    }
+    .contenedor-Happy {
+        padding: 25px 20px;
+    }
+    .contenedor-Happy h2 {
+        font-size: 30px;
+    }
+    .contenedor-Happy p {
+        font-size: 15px;
+    }
+    .grafica img {
+        width: 110px;
+    }
+    .section-black, .section-contact {
+        padding: 30px 15px;
+    }
+    .section-black h2, .section-contact h2 {
+        font-size: 27px;
+    }
+    .section-black p, .section-contact p {
+        font-size: 13px;
+    }
+    .about-photo, .photo-contact {
+        width: 100%;
+    }
+    .about-photo img, .photo-contact img {
+        max-height: 280px;
+    }
+    .section-white, .section-try {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+        padding: 35px 7%;
+    }
+    .OUR-photo, .photo-try, .black-text, .text-black {
+        width: 100%;
+        max-width: none;
+    }
+    .OUR-photo img, .photo-try img {
+        height: auto;
+        max-height: 350px;
+    }
+    .black-text h2, .text-black h2 {
+        font-size: 30px;
+        text-align: left;
+    }
+    .black-text p, .text-black p {
+        font-size: 15px;
+    }
+    .text-black {
+        text-align: left;
+    }
+    .section-try .text-black {
+        order: 2;
+    }
+    .section-try .photo-try {
+        order: 1;
+    }
+    .subscribe {
+        gap: 30px;
+        padding: 35px 6%;
+    }
+    .contenedor-subscribe {
+        padding: 25px 20px;
+    }
+    .fila-nombres {
+        gap: 12px;
+    }
+    .campo {
+        min-width: 0;
+    }
+    .campo p {
+        font-size: 12px;
+    }
+    .caja {
+        max-width: 100%;
+    }
+    .texto-formulario {
+        font-size: 10px;
+        overflow-wrap: anywhere;
+    }
+    .text-subscribe h2 {
+        font-size: 32px;
+    }
+    .text-subscribe p {
+        font-size: 15px;
+    }
+    .btn-subscribe {
+        max-width: 100%;
+    }
+    .footer {
+        padding: 30px 6% 20px;
+        gap: 30px;
+    }
     .footer-enlaces {
-        gap: 35px;
+        gap: 25px;
+        flex-wrap: wrap;
     }
     .grupo-enlaces a {
         font-size: 14px;
@@ -888,35 +1044,46 @@ body{
     }
     .footer-inferior p {
         font-size: 12px;
+        overflow-wrap: anywhere;
     }
     .footer-redes {
         align-self: flex-end;
+        gap: 14px;
     }
 }
-@media(max-width:350px) {
-    .menu ul {
-        gap: 8px;
+@media (max-width: 350px) {
+    .menu ul strong {
+        gap: 8px 10px;
     }
     .menu a {
         font-size: 12px;
     }
     .hero2 h1 {
-        font-size: 34px;
+        font-size: 32px;
     }
-    .Happiness .text h2 {
-        font-size: 31px;
+    .Happiness h2 {
+        font-size: 29px;
     }
     .text-yellow h2 {
-        font-size: 35px;
+        font-size: 31px;
+    }
+    .contenedor-Happy {
+        padding: 22px 16px;
+    }
+    .contenedor-Happy h2 {
+        font-size: 27px;
     }
     .fila-nombres {
         flex-direction: column;
         gap: 0;
     }
     .contenedor-subscribe {
-        padding: 24px 18px;
+        padding: 22px 16px;
+    }
+    .text-subscribe h2 {
+        font-size: 29px;
     }
     .footer-enlaces {
-        gap: 22px;
+        gap: 18px;
     }
 }
